@@ -25,10 +25,7 @@ public class PizzaDeliveryApplication {
 		AddressRepository addressRepository = Apctx.getBean(AddressRepository.class);
 		Employee employee2 = new Employee("OUMAR BALde", "5555654554");
 		employeeRepository.save(employee2);
-		Address address = new Address(23L, "30349", "4815 Parkview SQ");
-		addressRepository.save(address);
-		Address address1 = new Address(24L, "30144", "3995 Frey Road APT 204 C");
-		addressRepository.save(address);
+		
 
 	}
 
